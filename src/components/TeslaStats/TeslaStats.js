@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'react';
 import './TeslaStats.css';
 
 const TeslaStats = (props) => {
@@ -19,7 +18,7 @@ const TeslaStats = (props) => {
 };
 
 TeslaStats.propTypes = {
-  carstats: PropTypes.array
+  carstats: React.PropTypes.array
 }
 
-export default TeslaStats;
+export default TeslaStats

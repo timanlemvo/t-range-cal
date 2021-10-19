@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'react';
 import './TeslaWheels.css';
 
 const LabelLists = (props) => {
@@ -35,7 +34,7 @@ const TeslaWheels = (props) => (
   </div>
 );
 TeslaWheels.propTypes = {
-  value: PropTypes.number,
-  handleChangeWheels: PropTypes.func
+  value: React.PropTypes.number,
+  handleChangeWheels: React.PropTypes.func
 }
 export default TeslaWheels;

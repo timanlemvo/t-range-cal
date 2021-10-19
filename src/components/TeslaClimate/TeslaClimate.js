@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'react';
 import './TeslaClimate.css';
 
 const TeslaClimate = (props) => (
@@ -20,9 +19,9 @@ const TeslaClimate = (props) => (
 );
 
 TeslaClimate.propTypes = {
-  value: PropTypes.bool,
-  limit: PropTypes.bool,
-  handleChangeClimate: PropTypes.func
+  value: React.PropTypes.bool,
+  limit: React.PropTypes.bool,
+  handleChangeClimate: React.PropTypes.func
 }
 
 export default TeslaClimate;
