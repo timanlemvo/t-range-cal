@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './components/Header/Header';
 import TeslaBattery from './containers/TeslaBattery';
+
 const counterDefaultVal = {
   speed: {
     title: "Speed",
@@ -18,6 +19,7 @@ const counterDefaultVal = {
     max: 40
   }
 };
+
 class App extends Component {
   render() {
     return (
@@ -28,4 +30,5 @@ class App extends Component {
     );
   }
 }
+
 export default App;
