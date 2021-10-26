@@ -18,25 +18,25 @@ class App extends Component {
   render() {
     return (
       <Provider store={store}>
-      <div>
-        <Header />
-        <div className="wrapper">
-          <form className="tesla-battery">
-            <h1 className="title-animation">Range Per Charge</h1>
-            <TeslaCarContainer />
-            <TeslaStatsContainer />
-            <div className="tesla-controls cf tesla-controls-animation">
-              <TeslaSpeedCounterContainer />
-              <div className="tesla-climate-container cf">
+        <div>
+          <Header />
+          <div className="wrapper">
+            <form className="tesla-battery">
+              <h1 className='title-animation'>Range Per Charge</h1>
+              <TeslaCarContainer />
+              <TeslaStatsContainer />
+              <div className="tesla-controls cf tesla-controls-animation">
+                <TeslaSpeedCounterContainer />
                 <TeslaTempCounterContainer />
-                <TeslaClimateContainer />
+                <div className="tesla-climate-container cf">
+                  <TeslaClimateContainer />
+                </div>
+                <TeslaWheelsContainer />
               </div>
-              <TeslaWheelsContainer />
-            </div>   
-            <TeslaNotice />
-          </form>
+              <TeslaNotice />
+            </form>
+          </div>
         </div>
-      </div>
       </Provider>
     );
   }
