@@ -12,9 +12,11 @@ Tesla's Battery Range Calculator built using React.JS, Redux and a few animation
 
 
 ## Deployed Application
-<img src = "./src/assets/Preview.png">
+[<img src = "./src/assets/Preview.png"></img>](https://pensive-kepler-4f372d.netlify.app/)
 
 [Demo Link](https://pensive-kepler-4f372d.netlify.app/)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/df194c6e-8607-4fc6-b29a-b3ea48e32d42/deploy-status)](https://app.netlify.com/sites/pensive-kepler-4f372d/deploys)
 
 ## Technologies Used
   - React.js
