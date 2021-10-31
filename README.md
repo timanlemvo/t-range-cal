@@ -2,7 +2,8 @@
 
 ## Table of Contents
 - [Description](#Description)
-- [Deployed Application](#Demo)
+- [Deployed Application](#DeployedApplication)
+- [Technologies Used](#TechnologiesUsed)
 - [License](#License)
 - [Contributors](#Contributors)
 - [Questions](#Questions)
