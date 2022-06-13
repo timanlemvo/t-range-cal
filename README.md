@@ -1,15 +1,13 @@
 # Tesla's Battery Range Calculator with React
+Tesla's Battery Range Calculator built using React.JS, Redux and a few animations.
 
 ## Table of Contents
-- [Description](#Description)
+
 - [Deployed Application](#Deployed)
 - [Technologies Used](#Technologies)
 - [License](#License)
 - [Contributors](#Contributors)
 - [Questions](#Questions)
-
-## Description
-Tesla's Battery Range Calculator built using React.JS, Redux and a few animations.
 
 
 ## Deployed Application
